@@ -1,0 +1,47 @@
+//media querie tienda//
+@media (max-width: 1000px) {
+	.col {
+		&:hover {
+			box-shadow: none;
+		}
+	}
+}
+
+//media q contacto//
+
+@media (min-width: 700px) {
+	.container-form {
+		padding: 0 40px;
+	}
+	.contenido-form {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		>* {
+			padding: 20px;
+		}
+	}
+	.info-form {
+		h3 {
+			padding: 15px;
+			text-align: left;
+		}
+		ul {
+			padding: 15px;
+			text-align: left;
+		}
+		p {
+			padding: 15px;
+			text-align: left;
+		}
+	}
+}
+
+//media q como llegar//
+@media (max-width: 1000px) {
+	.map iframe {
+		&:hover {
+			transform: none;
+			padding: 0;
+		}
+	}
+}

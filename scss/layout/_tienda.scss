@@ -1,0 +1,36 @@
+$color_1: black;
+$font-family_1: 'Montserrat', sans-serif;
+
+.tienda-title {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 2.5rem;
+	text-align: right;
+	padding-top: 30px;
+	padding-right: 40px;
+}
+.title-mujer {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 2.5rem;
+	text-align: right;
+	padding-right: 40px;
+}
+.col {
+	gap: 20px;
+	cursor: pointer;
+	transition: 1s;
+	img {
+		width: 350px;
+		height: 500px;
+		object-fit: cover;
+		margin-top: 20px;
+	}
+	h2 {
+		font-size: 14px;
+		margin-top: 8px;
+	}
+	&:hover {
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	}
+}

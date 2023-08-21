@@ -1,0 +1,17 @@
+$background-color_1: rgb(255, 255, 255);
+
+.navbar {
+	font-size: 16px;
+}
+.logo-link {
+	background-color: $background-color_1;
+	text-align: center;
+}
+.logo-header {
+	img {
+		object-fit: cover;
+		display: inline-block;
+		width: 15%;
+		justify-content: center;
+	}
+}
