@@ -4,6 +4,7 @@
 		&:hover {
 			box-shadow: none;
 		}
+		width: 100%;
 	}
 }
 
@@ -32,16 +33,6 @@
 		p {
 			padding: 15px;
 			text-align: left;
-		}
-	}
-}
-
-//media q como llegar//
-@media (max-width: 1000px) {
-	.map iframe {
-		&:hover {
-			transform: none;
-			padding: 0;
 		}
 	}
 }
