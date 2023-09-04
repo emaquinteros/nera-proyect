@@ -279,6 +279,14 @@
   .col:hover {
     box-shadow: none;
   }
+  .tienda-title {
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .title-mujer {
+    text-align: center;
+    padding: 0.5rem;
+  }
 }
 @media (max-width: 700px) {
   .col img {
