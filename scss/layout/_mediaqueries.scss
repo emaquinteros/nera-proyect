@@ -1,3 +1,4 @@
+
 //media querie tienda//
 @media (max-width: 1000px) {
 	.col {
@@ -7,6 +8,18 @@
 		width: 100%;
 	}
 }
+
+@media (max-width: 700px){
+	.col img{
+		text-align: center;
+		justify-content: center;
+	}
+	h2{
+		text-align: center;
+		justify-content: center;
+	}
+}
+
 
 //media q contacto//
 
@@ -35,4 +48,20 @@
 			text-align: left;
 		}
 	}
+}
+
+//media q qs//
+@media (max-width: 900px){
+	.qs-img img{
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+//media q footer//
+@media (max-width: 900px){
+.container-fluid-copy p{
+	justify-content: center;
+	align-items: center;
+}
 }

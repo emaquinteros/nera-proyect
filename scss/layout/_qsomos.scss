@@ -15,5 +15,9 @@
 .qs-img{
 	text-align: center;
 	padding-bottom: 20px;
-	width: auto;
+	img{
+			width: 40%;
+			object-fit: cover;
+	}
 }
+
